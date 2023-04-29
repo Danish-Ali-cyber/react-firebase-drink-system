@@ -1,25 +1,19 @@
-import logo from './logo.svg';
 import './App.css';
+import BeverageFormMenu from './components/BeverageFormMenu/BeverageFormMenu';
+import BeverageQueue from './components/BeverageQueue/BeverageQueue';
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+      <BrowserRouter>
+        <Routes>
+          <Route exact path="/" element={<BeverageFormMenu />} />
+          <Route exact path="/queue" element={<BeverageQueue />} />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }
-
 export default App;

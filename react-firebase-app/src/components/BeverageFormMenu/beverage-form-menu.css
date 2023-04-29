@@ -1,0 +1,95 @@
+.bodyStyle {
+  height: 715px;
+  padding: 15px;
+  color: white;
+  background-image: url("https://images.pexels.com/photos/1283219/pexels-photo-1283219.jpeg?cs=srgb&dl=pexels-chris-f-1283219.jpg&fm=jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+
+.menuFormStyle {
+  display: grid;
+  grid-template-columns: 40% auto;
+  border: 3px solid white;
+  height: 713px;
+  backdrop-filter: blur(2px);
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.menuStyle {
+  border: 3px solid white;
+  padding: 50px 70px;
+  margin: 15px;
+  height: 525px;
+}
+
+.menuItemStyle {
+  /* background-color: wheat; */
+  background-color: rgb(251, 176, 123);
+  color: black;
+  border-radius: 5px;
+  border: 2px solid white;
+  font-size: 20px;
+  font-weight: 600;
+  margin: 10px;
+  padding: 20px;
+}
+
+.formStyle {
+  border: 3px solid white;
+  padding: 50px 70px;
+  margin: 15px 15px 15px 0;
+  height: 525px;
+}
+
+.fieldStyle {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-bottom: 20px;
+}
+
+.label {
+  font-size: 20px;
+  width: 100px;
+  text-align: right;
+  padding-top: 3px;
+}
+
+.inputStyle {
+  height: 30px;
+  width: 40%;
+  font-size: 15px;
+  border-width: 2px;
+  border-color: white;
+  background-color: rgb(251, 176, 123);
+  border-radius: 5px;
+  color: black;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.selectStyle {
+  height: 35px;
+  width: 41.1%;
+  font-size: 15px;
+  border-width: 2px;
+  border-color: white;
+  background-color: rgb(251, 176, 123);
+  border-radius: 5px;
+  font-weight: bold;
+  color: black;
+}
+
+.button {
+  padding: 0.5rem 1rem;
+  margin-left: 48.5%;
+  border: none;
+  background-color: rgb(70, 141, 255);
+  color: rgb(20, 20, 20);
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+}

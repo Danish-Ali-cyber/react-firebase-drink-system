@@ -1,0 +1,61 @@
+.container {
+    color: white;
+    padding: 10px;
+    height: 50rem;
+    font-family: Arial Narrow, sans-serif;
+    background-image: url("https://images.pexels.com/photos/340996/pexels-photo-340996.jpeg?cs=srgb&dl=pexels-isabella-mendes-340996.jpg&fm=jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.queue-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+
+}
+
+.queue {
+    border: 2px solid #ccc;
+    padding: 10px;
+    width: 30%;
+    backdrop-filter: blur(4px);
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.queue h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    font-family: Arial Narrow, sans-serif;
+}
+
+.queue ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.queue div {
+    color: black;
+    cursor: pointer;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.queue div:first-child {
+    margin: 0;
+}
+
+.queue .upperStyle {
+    background-color: rgb(229, 113, 30);
+    color: white;
+    font-size: larger;
+    font-family: Arial Narrow, sans-serif;
+    font-weight: 700;
+}
+
+.queue .lowerStyle {
+    background-color: white;
+    font-family: Arial Narrow, sans-serif;
+    font-weight: 600;
+}
